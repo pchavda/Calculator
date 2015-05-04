@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+
+    <LinearLayout android:background="#C0C0C0" android:textAllCaps="false" android:orientation="vertical" tools:context=".Advance" android:paddingBottom="@dimen/activity_vertical_margin" android:paddingTop="@dimen/activity_vertical_margin" android:paddingRight="@dimen/activity_horizontal_margin" android:paddingLeft="@dimen/activity_horizontal_margin" android:layout_height="match_parent" android:layout_width="match_parent" xmlns:tools="http://schemas.android.com/tools" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditText android:paddingRight="10dp" android:background="#d3d3d3" android:layout_height="60dp" android:layout_width="match_parent" android:layout_gravity="center_horizontal" android:id="@+id/editText" android:text="0" android:textSize="40sp" android:gravity="center|right" android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+    <Button android:layout_height="wrap_content" android:layout_width="88dp" android:layout_gravity="right" android:id="@+id/btnAc" android:text="AC" style="?android:attr/buttonStyleSmall"/>
+
+
+    <LinearLayout android:textAllCaps="false" android:orientation="horizontal" android:layout_height="50dp" android:layout_width="fill_parent" android:id="@+id/linearLayout1" android:weightSum="1.0" android:layout_weight=".25">
+
+    <Button android:textAllCaps="false" android:layout_height="fill_parent" android:layout_width="50dp" android:id="@+id/btnsin" android:text="Sin()" android:textSize="20sp" android:layout_weight=".25"/>
+
+    <Button android:textAllCaps="false" android:layout_height="fill_parent" android:layout_width="50dp" android:id="@+id/btncos" android:text="Cos()" android:textSize="20sp" android:layout_weight=".25"/>
+
+    <Button android:textAllCaps="false" android:layout_height="fill_parent" android:layout_width="50dp" android:id="@+id/btntan" android:text="Tan()" android:textSize="20sp" android:layout_weight=".25"/>
+
+    <Button android:textAllCaps="false" android:layout_height="fill_parent" android:layout_width="50dp" android:id="@+id/btnbi" android:text="i" android:textSize="20sp" android:layout_weight=".25"/>
+
+</LinearLayout>
+
+
+    <LinearLayout android:orientation="horizontal" android:layout_height="50dp" android:layout_width="fill_parent" android:id="@+id/linearLayout2" android:weightSum="1.0" android:layout_weight=".25">
+
+    <Button android:textAllCaps="false" android:layout_height="fill_parent" android:layout_width="50dp" android:id="@+id/btnln" android:text="ln" android:textSize="20sp" android:layout_weight=".25"/>
+
+    <Button android:textAllCaps="false" android:layout_height="fill_parent" android:layout_width="50dp" android:id="@+id/btnlog" android:text="log()" android:textSize="20sp" android:layout_weight=".25"/>
+
+    <Button android:textAllCaps="false" android:layout_height="fill_parent" android:layout_width="50dp" android:id="@+id/btnpi" android:text="π" android:textSize="20sp" android:layout_weight=".25"/>
+
+    <Button android:textAllCaps="false" android:layout_height="fill_parent" android:layout_width="50dp" android:id="@+id/btne" android:text="e" android:textSize="20sp" android:layout_weight=".25"/>
+
+</LinearLayout>
+
+
+    <LinearLayout android:orientation="horizontal" android:layout_height="50dp" android:layout_width="fill_parent" android:id="@+id/linearLayout3" android:weightSum="1.0" android:layout_weight=".25">
+
+    <Button android:textAllCaps="false" android:layout_height="fill_parent" android:layout_width="50dp" android:id="@+id/btnmod" android:text="%" android:textSize="20sp" android:layout_weight=".25"/>
+
+    <Button android:textAllCaps="false" android:layout_height="fill_parent" android:layout_width="50dp" android:id="@+id/btnroot" android:text="√" android:textSize="20sp" android:layout_weight=".25"/>
+
+    <Button android:textAllCaps="false" android:layout_height="fill_parent" android:layout_width="50dp" android:id="@+id/btnexp" android:text="^" android:textSize="20sp" android:layout_weight=".25"/>
+
+    <Button android:textAllCaps="false" android:layout_height="fill_parent" android:layout_width="50dp" android:id="@+id/btnfact" android:text="!" android:textSize="20sp" android:layout_weight=".25"/>
+
+</LinearLayout>
+
+
+    <LinearLayout android:orientation="horizontal" android:layout_height="50dp" android:layout_width="fill_parent" android:id="@+id/linearLayout4" android:weightSum="1.0" android:layout_weight=".25">
+
+    <Button android:textAllCaps="false" android:layout_height="fill_parent" android:layout_width="50dp" android:id="@+id/btnsb" android:text="(" android:textSize="20sp" android:layout_weight=".25"/>
+
+    <Button android:textAllCaps="false" android:layout_height="fill_parent" android:layout_width="50dp" android:id="@+id/btncb" android:text=")" android:textSize="20sp" android:layout_weight=".25"/>
+
+    <Button android:textAllCaps="false" android:layout_height="fill_parent" android:layout_width="50dp" android:id="@+id/btnEqual" android:text="=" android:textSize="40sp" android:layout_weight=".25"/>
+
+    <Button android:textAllCaps="false" android:layout_height="fill_parent" android:layout_width="50dp" android:id="@+id/btnbx" android:text="1/x" android:textSize="20sp" android:layout_weight=".25"/>
+
+</LinearLayout>
+
+</LinearLayout>
